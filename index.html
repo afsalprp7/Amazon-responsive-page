@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="icon" href="images/title-logo copy.png">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/productsContainer.css">
+</head>
+<body>
+<!----------------header--------------->
+  <div class="amazon-header">
+    <div class="amazon-header-left-section">
+      <a href="index.html" class="header-link">
+        <img class="amazon-logo"
+          src="images/amazon-logo-white.png">
+        <img class="amazon-mobile-logo"
+          src="images/amazon-mobile-logo-white.png">
+      </a>
+    </div>
+    <div class="amazon-header-middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="images/icons/search-icon.png">
+      </button>
+    </div>
+    <div class="amazon-header-right-section">
+      <div class="orders-link header-link" >
+        <span class="returns-text">Returns</span>
+        <span class="orders-text">& Orders</span>
+      </div>
+      <div class="cart-link header-link" >
+        <a href="cart.html" class="text-white text-decoration-none">
+        <img class="cart-icon" src="images/icons/cart-icon.png">
+        <div class="cart-quantity js-cart-quantity">0</div>
+      </a>
+        <div class="cart-text">Cart</div>
+      
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------container-------------------->
+  <div class="card-group products-container">
+    <div class="row js-products">
+      <!--generating html by js--> 
+  </div>
+  </div>
+
+<script type="module" src="scripts/Amazon.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

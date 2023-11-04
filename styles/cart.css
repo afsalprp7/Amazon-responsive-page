@@ -1,0 +1,12 @@
+.cart-list{
+  margin: 100px;
+}
+.cart-card{
+width: 100%;
+}
+.card-button{
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(94, 92, 92);
+}
